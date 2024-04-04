@@ -1,0 +1,94 @@
+/* .{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+} */
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+background-color: gold;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+header nav a{
+padding: 5px 20px;
+}
+header ul{
+    list-style: none;
+
+}
+header ul li{
+    margin-left: 20px;
+}
+main{
+    background-color: aqua;
+    padding: 40px;
+    background-image: url('advert\ img.webp');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+main h1, h6, p{
+color: black;
+}
+main #promo{
+    width: 50px;
+}
+main p{
+    text-align: center;
+    margin-top: 5opx;
+    font-size: 18px;
+}
+
+section h2{
+    text-align: center;
+    
+}
+
+.product{
+    display: grid;
+}
+button{
+    background-color: blueviolet;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+/* footer{
+    
+
+}
+footer{
+    display: flex;
+    justify-co
+}
+footer #wrapper div{
+width: 24%;
+display: flex;
+flex-direction: column;
+} */
+
+/* .product-image {
+    width: 300px;
+    object-fit: cover;
+} */
+.ty {
+    font-size: 10px;
+}
+footer{
+    background-color: goldenrod;
+    padding: 50px 5%;
+}
+
